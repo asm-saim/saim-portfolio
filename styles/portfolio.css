@@ -125,11 +125,43 @@ nav button:active {
 }  
 
 .banner-right {
-    flex: 1.3;
+    flex: 1.5;
 }
 
 .banner img {
     width: 100%;
     /* max-height: 700px; */
     object-fit: cover;
+}
+
+
+
+
+/* Main section */
+main{
+    max-width: 1140;
+    margin: 0 auto;
+}
+
+
+/* About section */
+.about{
+    background-color: rgb(28, 28, 28);
+    padding: 80px;
+    text-align: left;
+    /* max-width: 50%; */
+}
+.about h2{
+    margin: 0 20px;
+    font-size: xx-large;
+    color: aliceblue;
+    padding-bottom: 20px;
+    
+}
+.about p{
+    font-size: large;
+    text-align:justify ;
+    color: aliceblue;
+    margin: 0 20px;
+    line-height:1.5;
 }
