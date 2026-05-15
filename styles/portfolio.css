@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
 }
 
-.nav-banner{
+.nav-banner {
     background-color: black;
 }
 
@@ -100,29 +100,31 @@ nav button:active {
     padding: 0 30px;
     /* background-color: cadetblue; */
 }
-.btn-lft{
+
+.btn-lft {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.btn-lft button:hover{
+.btn-lft button:hover {
     background-color: blue;
 }
 
-.btn-lft button:active{
+.btn-lft button:active {
     transform: scale(0.95);
 }
 
-.lft-p{
+.lft-p {
     font-size: large;
     text-align: center;
     color: aliceblue;
 }
-.banner-left h2{
+
+.banner-left h2 {
     font-size: xx-large;
     color: aliceblue;
-}  
+}
 
 .banner-right {
     flex: 1.5;
@@ -138,30 +140,81 @@ nav button:active {
 
 
 /* Main section */
-main{
+main {
     max-width: 1140;
     margin: 0 auto;
 }
 
 
 /* About section */
-.about{
-    background-color: rgb(28, 28, 28);
-    padding: 80px;
+.about {
+    background-color: #36383F;
+    padding: 100px;
     text-align: left;
     /* max-width: 50%; */
 }
-.about h2{
+
+.about h2 {
     margin: 0 20px;
     font-size: xx-large;
     color: aliceblue;
     padding-bottom: 20px;
-    
+
 }
-.about p{
+
+.about p {
     font-size: large;
-    text-align:justify ;
+    text-align: justify;
     color: aliceblue;
     margin: 0 20px;
-    line-height:1.5;
+    line-height: 1.5;
+}
+
+
+/* Skills section  */
+
+.card-section {
+    padding: 100px;
+    text-align: left;
+    background-color:black;
+}
+
+.card-section h2 {
+    margin: 0 20px;
+    font-size: xx-large;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+
+.card-section .card{
+    background-color: #36383F;
+    /* margin: 0 20px; */
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    width: calc(40% - 15px);
+}
+.card-section .card h3 {
+    font-size:x-large ;
+    color: aliceblue;
+} 
+
+.card img{
+    max-width: 80px;
+    /* margin: 20px 20px;    */
+    
+}
+.card-section .card ul {
+    font-size:large ;
+    color: aliceblue;
+    line-height: 1.7;
+}
+
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: center;
+        gap: 30px;
 }
