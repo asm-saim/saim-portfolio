@@ -148,7 +148,7 @@ main {
 
 /* About section */
 .about {
-    background-color: #36383F;
+    background-color: #181818;
     padding: 100px;
     text-align: left;
     /* max-width: 50%; */
@@ -177,7 +177,7 @@ main {
     gap: 20px;
     margin: 20px 0;
     font-size: 30px;
-    
+
 }
 
 .logos a {
@@ -196,7 +196,7 @@ main {
 .card-section {
     padding: 100px;
     text-align: left;
-    background-color:black;
+    background-color: black;
 }
 
 .card-section h2 {
@@ -207,37 +207,170 @@ main {
 }
 
 
-.card-section .card{
-    background-color: #36383F;
+.card-section .card {
+    /* background-color: #1a1a1a; */
+    background-color: #181818;
     /* margin: 0 20px; */
     color: aliceblue;
     padding: 20px;
     border-radius: 15px;
     width: calc(40% - 15px);
 }
-.card-section .card h3 {
-    font-size:x-large ;
-    color: aliceblue;
-    margin-top: 15px ;
-    margin-bottom: 10px;
-} 
 
-.card img{
+.card-section .card h3 {
+    font-size: x-large;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card img {
     max-width: 60px;
     /* margin: 20px 20px;    */
-    
+
 }
+
 .card-section .card ul {
-    font-size:large ;
+    font-size: large;
     color: aliceblue;
     line-height: 1.5;
     padding-left: 20px;
 }
 
-.all-cards{
+.all-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
-        gap: 30px;
+    gap: 30px;
+}
+
+
+/* Projects Card */
+
+.projects-section{
+    padding: 50px 100px;
+    background-color: black;
+    color: aliceblue;
+    }
+
+/* h2 */
+
+.projects-section h2 {
+    margin: 0 20px;
+    font-size: xx-large;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+
+.projects-section ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0px;
+}
+.projects-section ul li{
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-size: small;
+}
+
+.p-card{
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.p-card-left{
+    flex: 5;
+    padding: 30px 20px;
+}
+.p-card-left p{
+    font-size: medium;
+}
+
+.p-card-right{
+    flex: 5;
+}
+
+.p-card-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:0px 10px 10px 0px ;
+}
+
+.all-P-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0px 20px;
+    }
+.all-P-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.p-card-left h3{
+    font-size:x-large;
+}
+
+/* log of project  */
+
+
+.project-logo {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.project-logo:hover {
+    color: blue;
+    transform: scale(1.2);
+}
+
+/* footer */
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #181818;
+    color: aliceblue;
+    
+    
+}
+footer h3{
+    font-size:xx-large ;
+    padding-top: 20px;
+}
+footer p{
+    font-size: larger;
+    text-align: center;
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+
+footer hr{
+    width: 90%;
+    border: none;
+    height: 1px;
+    background-color: aliceblue;
+    margin: 20px 0;
+}
+
+footer small{
+    padding: 20px 0px;
+    font-size: medium;
+}
+
+footer .bttn{
+    background-color: #004a77;
+    border: none;
 }
