@@ -279,7 +279,7 @@ main {
 
 .p-card{
     display: flex;
-    border: 1px solid blue;
+    border: 3px solid #004A77;
     border-radius: 10px;
 }
 
@@ -371,6 +371,6 @@ footer small{
 }
 
 footer .bttn{
-    background-color: #004a77;
+    background-color: blue;
     border: none;
 }
